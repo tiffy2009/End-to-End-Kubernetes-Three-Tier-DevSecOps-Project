@@ -1,0 +1,11 @@
++ git config user.email isaac.ntim@gmail.com
++ git config user.name Isaac Ntim
++ BUILD_NUMBER=7
++ echo 7
+7
++ grep -oP (?<=frontend:)[^ ]+ deployment.yaml
++ imageTag=3
++ echo 3
+3
++ sed -i s/FRONTEND:3/FRONTEND:7/ deployment.yaml
++ git add -A
